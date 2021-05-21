@@ -1,0 +1,459 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 63%;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: relative;
+  height: 8rem;
+}
+div#nav-info {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 8rem;
+  width: 100%;
+  background-color: rgb(52, 52, 58);
+  /* background-color:rgb(56, 50, 50); */
+  /* 58 *2,78   40, 40, 49  46, 46, 54*/
+  /* border: 1px solid black; */
+}
+
+div#nav-brand {
+  font-size: 2rem;
+  align-items: center;
+  width: 50%;
+  display: flex;
+  margin-left: 5rem;
+  /* border: 1px solid black; */
+}
+
+div#nav-brand h2 {
+  margin-left: 1.5rem;
+  color: rgb(240, 126, 106);
+}
+
+div#nav-brand img {
+  height: 7rem;
+  width: 7rem;
+  animation: rotate 3s linear infinite;
+}
+
+div#item ul {
+  display: flex;
+  /* border: 0.1rem solid black; */
+  justify-content: space-around;
+  height: 7rem;
+  width: 50rem;
+  margin-left: 8rem;
+  align-items: center;
+}
+div ul li {
+  font-size: 2.3rem;
+  list-style: none;
+  /* color: rgb(240, 126, 106); */
+  color: white;
+  text-decoration: underline;
+}
+
+div#slide-container {
+  width: 100%;
+  height: 50rem;
+  /* border: 1px solid black; */
+  background-color: rgb(51, 51, 54);
+  /* background-color: rgb(56, 50, 50);  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div#slide-1 {
+  width: 45%;
+  height: 50rem;
+}
+div#slide-2 {
+  width: 40%;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#slide-2 div {
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div#slide-2 div p {
+  color: rgb(240, 126, 106);
+
+  width: 100%;
+  height: 20rem;
+  word-spacing: 0.3rem;
+  font-size: 3.5rem;
+}
+
+div#slide-1 img {
+  width: 50rem;
+  height: 50rem;
+  text-align: center;
+  /* margin-left: 5rem; */
+  animation: move 4s linear infinite alternate;
+}
+
+/* world-covid data css */
+
+div#worldcovid-data {
+  width: 100%;
+  height: 25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/pic3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+div#worldcovid-data h2#head {
+  color: rgb(240, 126, 106);
+  word-spacing: 0.3rem;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+div#wrld-data {
+  height: 15rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.data-card {
+  width: 17rem;
+  height: 8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+div.data-card h3 {
+  font-size: 2.1rem;
+  font-weight: lighter;
+  padding: 0.5rem;
+}
+div.data-card h1 {
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+div#card-1 {
+  background-color: rgb(0, 128, 0, 0.3);
+}
+div#card-2 {
+  background-color: rgb(0, 0, 225, 0.3);
+}
+div#card-3 {
+  background-color: rgb(255, 0, 0, 0.3);
+}
+div#card-4 {
+  background-color: rgba(142, 211, 228, 0.3);
+}
+div#card-5 {
+  background-color: rgba(155, 88, 218, 0.3);
+}
+div#card-6 {
+  background-color: rgba(214, 115, 189, 0.3);
+}
+
+div#covid-info {
+  width: 100%;
+  background-color: rgb(51, 51, 54);
+
+  color: rgba(243, 224, 224, 0.849);
+  height: 40rem;
+}
+p.header {
+  color: rgb(240, 126, 106);
+  padding: 1.8rem 0 0 0;
+  text-align: center;
+  font-weight: 100;
+  text-decoration: underline;
+  font-size: 3rem;
+}
+div#covid-info-un {
+  display: flex;
+  height: 33rem;
+  align-items: center;
+  justify-content: center;
+}
+
+div#box-1 {
+  height: 28rem;
+
+  width: 40%;
+  display: flex;
+  margin: 1.5rem;
+  align-items: center;
+  justify-content: flex-end;
+}
+div#box-2 {
+  height: 28rem;
+  padding: 1.2rem;
+  width: 40%;
+  margin: 1.5rem;
+  /* border: 1px solid red; */
+}
+/* div#box-2 p{
+  font-size: 3rem;
+  color: white;
+} */
+div#box-2 div p#ques {
+  font-size: 2.6rem;
+
+  color: cadetblue;
+  /* border: 1px solid red; */
+  margin: 0.8rem 0.8rem 1.4rem 0;
+}
+div#box-2 div p#ans,
+p#ans2 {
+  font-size: 1.8rem;
+  text-align: justify;
+  color: rgb(114, 207, 156);
+  font-weight: lighter;
+  /* border: 1px solid red; */
+  margin: 1rem 1rem 1rem 0;
+}
+
+div#box-1 img {
+  width: 43.5rem;
+  height: 25rem;
+}
+
+/* symptom-css */
+div#symptom {
+  width: 100%;
+  background-color: rgb(51, 51, 54);
+  height: auto;
+  /* border: 1px solid white; */
+}
+div#sym {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 45rem;
+}
+div.block-1 {
+  flex-basis: 30%;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+div.block-1-1-1 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+div.block-1-2-1 {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  font-size: large;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+img.icon-1 {
+  width: 11rem;
+  height: 11rem;
+}
+/* india-data-css */
+div#india-covid-data {
+  width: 100%;
+  height: 25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./images/pic3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div#india-covid-data h2 {
+  color: cadetblue;
+  text-decoration: underline;
+  font-size: 2.5rem;
+  padding: 2rem;
+  text-align: center;
+}
+div#india-data {
+  height: 15rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.in-data-card {
+  width: 17rem;
+  height: 8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+div#in-card-1 {
+  background-color: rgb(0, 128, 0, 0.3);
+}
+div#in-card-2 {
+  background-color: rgb(0, 0, 225, 0.3);
+}
+div#in-card-3 {
+  background-color: rgb(255, 0, 0, 0.3);
+}
+div#in-card-4 {
+  background-color: rgba(82, 43, 128, 0.3);
+}div#in-card-5 {
+  background-color: rgba(37, 97, 112, 0.3);
+}div#in-card-6 {
+  background-color: rgba(194, 92, 160, 0.3);
+}
+.status{
+  font-size: 2.1rem;
+  font-weight: lighter;
+  padding: 0.5rem;
+}
+.recrd{
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+/* preservation-css */
+div#preservation {
+  width: 100%;
+  background-color: rgb(51, 51, 54);
+  height: 43rem;
+  /* border: 1px solid rgb(129, 37, 37); */
+}
+div#step-con {
+  /* border: 1px solid white; */
+  height: auto;
+}
+div#step-1 {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p#step-2 {
+  color: cadetblue;
+  /* padding: 1.8rem 0 0 0; */
+  text-align: center;
+  font-weight: lighter;
+  /* border: 1px solid black; */
+  /* text-decoration: underline; */
+  font-size: 2.7rem;
+}
+div.block {
+  flex-basis: 28%;
+  height: 10rem;
+  display: flex;
+  /* border: 1px solid red; */
+}
+div#block-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 25rem;
+  /* border: 1px solid rebeccapurple; */
+}
+div.block-1-1 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+}
+div.block-1-2 {
+  width: 70%;
+  height: 100%;
+  color: rgb(227, 231, 229);
+  display: flex;
+  font-weight: lighter;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-justify: auto;
+  font-size: 1.8rem;
+  /* border: 1px solid red; */
+}
+img.icon {
+  width: 6rem;
+  height: 6rem;
+}
+/* footer css */
+footer {
+  width: 100%;
+  height: 5.5rem;
+  background-color: rgb(51, 51, 54);
+}
+footer p {
+  text-align: center;
+  color: cadetblue;
+  font-size: large;
+  padding: 0.5rem;
+}
+
+a:visited {
+  color: white;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  transform: scale(1.2, 1.2);
+  color: rgb(240, 126, 106);
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes move {
+  from {
+    transform: translatex(0.5rem);
+  }
+  to {
+    transform: translatex(3rem);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 40%;
+    scroll-behavior: smooth;
+  }
+}

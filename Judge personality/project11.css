@@ -1,0 +1,48 @@
+body{
+  background-color:tan ;
+}
+#content{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: 700px;
+  margin-top: 30px;
+}
+#text{
+  color: brown;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 60px;
+  font-family: 'Fondamento', cursive;
+}
+#container{
+  border-radius: 10px;
+  border: 2px solid white;
+background-color: teal;
+width: 400px;
+height: 400px;
+text-align: center;
+}
+.txt{
+  margin: 60px 0px 20px 0px;
+  padding: 5px;
+  background-color: black;
+   color: white; 
+   border-radius: 5px;
+} .txt:focus{
+  transform: scale(1.1);
+}
+.btn{
+  /* margin: 60px 0 10px 0 5px; */
+  padding: 6px;
+  border: 2px solid green;
+  margin: 20px;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  background-color: green;
+  color: aliceblue;
+  border: 0px ;
+}

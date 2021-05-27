@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div h1{
+  padding: 10px;
+  color:gold;
+  text-align: center;
+  background-color:black ;
+}
+
+#header h2 span{
+  color: red;
+}
+#header{
+  height: 110px;
+  text-align: center;
+  padding: 10px;
+  /* border: 1px solid red; */
+
+}
+#body{  background-color: teal;
+  /* background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%); */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;*/
+} 
+#h2node{
+  /* height: 30px; */
+   font-weight: lighter;
+   font-size:40px;
+  margin: 15px;
+color: white;
+ 
+}
+::placeholder{
+  padding-left: 15px;
+ color: tomato;
+ opacity: 0.8;
+}
+div#input input{
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+  color: white;
+   border: 2px solid white;
+   border-radius: 7px;
+   width: 50%;
+   font-size: large;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div#body > div{
+ 
+  width: 500px;
+  height: 500px;
+  text-align: center
+}
+#foot-sec h3{
+  padding: 8px;
+  color: red;
+}
+
+#foot-sec{
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color:black;
+  padding: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: large;
+  display: flex;
+  border: 2px dashed goldenrod ;
+  flex-direction: column;
+  justify-content: flex-end;
+ color: grey;
+ border-radius: 10px;
+}
+div#btn button{ background-color: blue;
+padding: 6px;
+font-size: medium;
+font-weight: bold;
+margin: 10px;}
+#display{
+  margin: 25px;
+  padding: 10px;
+  font-size: larger;
+  display: flex;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+input[value="Reset"]{
+   padding: 5px;
+   color: white;
+   font-size: medium;
+   width:70px;
+   height: 35px;
+   background-color: black;
+}

@@ -1,0 +1,50 @@
+body{
+  background:linear-gradient(to right, #093028, #237a57) ;
+}
+#child{
+  font-size:xx-large;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-weight: lighter;
+ text-align: center;
+ margin-top: 80px;
+ color: white;
+ text-shadow: 5px 5px 5px black;
+}
+#input{
+  margin-top: 50px;
+  box-shadow: 4px 5px 1px black;
+  padding: 5px;
+  border-width: 5px;
+  border-color: goldenrod;
+  border-style: inset;
+  border-radius: 5px;
+}
+#output{
+  box-shadow: 4px 5px 1px black;
+  margin-top: 50px;
+  padding: 5px;
+  border-width: 5px;
+  border-color: goldenrod;
+  
+  border-radius: 5px;
+}
+#submit
+{ box-shadow: 1px 2px black;
+  padding: 6px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border-style: ridge;
+ 
+  margin-top: 40px;
+  border-width: 5px;
+}
+#input,#output:focus
+{
+  background-color: black;
+  color:white ;
+}
+#submit:active
+{
+  background-color: blue;
+}
